@@ -98,7 +98,7 @@ public class PlayerController : MonoBehaviour
     /// <param name="context"></param>
     public void OnMove(InputAction.CallbackContext context)
     {
-        moveDirection = context.ReadValue<Vector2>();
+        moveDirection = context.ReadValue<Vector2>();Debug.Log("run");
     }
 
     /// <summary>
